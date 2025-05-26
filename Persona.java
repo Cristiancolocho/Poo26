@@ -1,4 +1,4 @@
-public class Persona {
+public abstract class Persona {
     private Integer Id;
     private String Nombre;
     private String Apellidos;
@@ -46,14 +46,9 @@ public class Persona {
         Edad = edad;
     }
 
-    public void Concentrarse() {
-        System.out.println("Concentrandose");
-
-    }
-
-    public void Viajar() {
-        System.out.println("Viajando");
-    }
+      // Métodos abstractos - Fuerza a las subclases a implementarlos
+    public abstract void Concentrarse();
+    public abstract void Viajar();
 
     
 }
