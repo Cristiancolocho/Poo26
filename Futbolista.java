@@ -1,6 +1,4 @@
-
-    
-}
+ 
 
 public class Futbolista extends Persona {
     private Integer dorsal;
